@@ -40,7 +40,7 @@ section{
     text-transform: capitalize;
     color:rgba(10, 39, 134, 0.925);
     text-align: center;
-    background: linear-gradient(45deg,rgb(172, 208, 248),rgb(255, 167, 196)); 
+    background: linear-gradient(45deg,rgb(255, 233, 122),rgb(174, 255, 168));   
 }
   
 .heading-link p {
@@ -48,7 +48,7 @@ section{
     line-height: 2;
     color:rgba(10, 39, 134, 0.925);
     text-align: center;
-    background: linear-gradient(45deg,rgb(172, 208, 248),rgb(255, 167, 196)); 
+    background: linear-gradient(45deg,rgb(255, 233, 122),rgb(174, 255, 168));  
 
 }
   
@@ -233,7 +233,7 @@ section{
     padding: 2rem;
     border-top: .2rem solid rgba(10, 39, 134, 0.925);
     text-transform: capitalize;
-    background: linear-gradient(45deg,rgb(172, 208, 248),rgb(255, 167, 196)); 
+    background: linear-gradient(45deg,rgb(255, 233, 122),rgb(174, 255, 168));  
 
 
 }
