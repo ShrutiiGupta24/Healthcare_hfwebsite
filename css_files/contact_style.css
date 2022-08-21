@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .4s linear;
+    box-sizing:border-box;
+}
+
+*::selection{
+    background:rgb(35, 118, 251);
+    color:#fff;
+}
+
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+    scroll-padding-top:5rem;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding:5rem 10%;
+}
+
+.heading-link {
+    text-align: center;
+
+}
+
+.heading-link{
+    text-align: center;
+}
+  
+.heading-link h2 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    color:rgba(10, 39, 134, 0.925);
+    text-align: center;
+}
+  
+.heading-link p {
+    font-size: 2rem;
+    line-height: 2;
+    color:rgba(10, 39, 134, 0.925);
+    text-align: center;
+}
+  
+.heading-link a {
+    color:rgba(10, 39, 134, 0.925);
+}
+  
+.heading-link a:hover {
+    color:rgb(245, 10, 120);
+    text-decoration: underline;
+}
+
+
+.cpage{
+    /* background: rgb(243, 238, 243); */
+    font-size: 10px;
+    flex-direction: column;
+}
+
+
+    /* background: rgb(217, 138, 224); */
+
+.cpage .contact-container{
+    /* width:80%; */
+    text-align: center;
+    justify-content: center;
+    color:rgba(10, 39, 134, 0.925);
+    border-top: .2rem solid rgba(10, 39, 134, 0.925);
+    margin-top: 1rem;
+    padding-top: 5rem;
+    font-size: large;
+    font-weight: 500;
+    flex-direction: column;
+}
+
+.contact-box{
+    display: flex;
+    background: #fff;
+}
+
+.c-right{
+    flex-basis:60%;
+    padding: 40px 60px;
+    border:0.1rem solid rgba(10, 39, 134, 0.925);
+    position: relative;
+    
+}
+
+.c-left{
+    flex-basis:40%;
+    padding: 40px;
+    position: relative;
+    background:rgba(10, 39, 134, 0.925);
+}
+
+.contact-container p{
+    margin-bottom: 40px;
+}
+form{
+    display: block;
+}
+.input-row{
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis:100%;
+}
+
+.input-group label{
+    align-content: initial;
+}
+
+input{
+    width: 100%;
+    border-bottom: 1px solid rgba(10, 39, 134, 0.925);;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width:100%;
+    border: 1px solid rgba(10, 39, 134, 0.925);;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 6px;
+    display:block;
+    color:rgba(10, 39, 134, 0.925);
+    font-size: medium;
+    font-weight: 400;
+    text-align: left;
+}
+
+button{
+    background-color:rgba(10, 39, 134, 0.925);
+    color:#fff;
+    width:100px;
+    border: none;
+    outline: none;
+    color:#fff;
+    height:30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(27,0,180,0.1);
+}
+button:hover{
+    color:rgb(255, 251, 0);
+}
+
+.c-right h3{
+    color:rgba(10, 39, 134, 0.925);
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.c-left h3{
+    color: #fff;
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+tr td:first-child{
+    padding-top: 20px;
+    padding-right:10px;
+    align-content: baseline;
+    color:#fff;
+    font-weight: 500;
+    font-size: medium;
+    justify-content: space-between;
+}
+
+tr td{
+    text-align: left;
+    padding-top:20px;
+    /*padding: 20px 20px 20px 20px ;*/
+    color:#fff;
+    font-weight: 500;
+    font-size: large;
+}
+
+tr td i{
+    size: 200px;
+}
+
+tr td .link{
+    color:#fff;
+}
+
+tr td a:hover{
+    color:rgb(255, 251, 0);
+}
+
+
+.s-h{
+    display:grid;
+    grid-template-columns: repeat(4, 50px);   
+    align-items: left;
+}
+
+.s-h a{
+    width:35px;
+    height:35px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    border: 0.3rem solid #fff;
+    border-radius: 4px;
+}
+
+.s-h a .fab{
+    color:#fff;
+    font-size: 18px;
+}
+
+.s-h a .fab:hover{
+    color:rgb(255, 251, 0);
+}
+
+
+
+
+@media(max-width:991px){
+    
+    .cpage{
+        padding:50px;
+    }
+    .contact-box{
+        flex-direction: column;
+    }
+    
+    .c-left, .c-right{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:450px){
+   html{
+      font-size: 30%;
+    }
+    
+    
+tr td i{
+    size: 50px;
+}
+}
