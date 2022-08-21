@@ -159,7 +159,7 @@ section{
     margin:20px;
     overflow: hidden;
     box-shadow: 0.5rem 0.5rem rgba(182, 178, 178, 0.836);
-    border : .7rem solid rgb(255, 167, 196);
+    border: .7rem solid rgb(255, 233, 122); 
     cursor:pointer;
     width:400px;
     height:300px;
