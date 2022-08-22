@@ -5,7 +5,7 @@ To check out the website, visit :
 https://shrutiigupta24.github.io/Healthcare_hfwebsite/
 
 
-Features :
+FEATURES:-
 
 BMI Calculator
 
